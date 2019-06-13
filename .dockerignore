@@ -1,0 +1,11 @@
+.git
+.idea
+.DS_Store
+.gitignore
+Dockerfile
+LICENSE
+README.md
+
+# To prevent storing dev/temporary container data
+*.csv
+tmp
