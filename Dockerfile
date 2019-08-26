@@ -3,8 +3,8 @@ FROM openjdk:8-alpine
 RUN apk --no-cache add curl
 
 # Set the WILDFLY_VERSION env variable
-ENV WILDFLY_VERSION 17.0.0.Final
-ENV WILDFLY_SHA1 50bf8c48d4faf27c530af6949a225b9f1428300e
+ENV WILDFLY_VERSION 17.0.1.Final
+ENV WILDFLY_SHA1 eaef7a87062837c215e54511c4ada8951f0bd8d5
 ENV JBOSS_HOME /opt/jboss/wildfly
 
 USER root
